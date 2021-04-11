@@ -11,10 +11,11 @@
 		 1. Mintable
 		 2. Burnable
 		 3. Pausable
-		 4. Snapshots 
+		 4. Snapshots
+	 2. ERC20 Access Control 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5NDQwNjE5MywtMTAwMDQ3MTg0MywxMz
-c3NTk4NjkyLDIwMzk5MjU5MzgsLTE0MTI4MTI2NDksLTU2MjEz
-NjMxLC01MjIzMDMwNDBdfQ==
+eyJoaXN0b3J5IjpbLTE4NjgzNDk3MTYsLTEwMDA0NzE4NDMsMT
+M3NzU5ODY5MiwyMDM5OTI1OTM4LC0xNDEyODEyNjQ5LC01NjIx
+MzYzMSwtNTIyMzAzMDQwXX0=
 -->
