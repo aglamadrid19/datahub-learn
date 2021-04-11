@@ -12,9 +12,9 @@
 		 2. Burnable
 		 3. Pausable
 		 4. Snapshots
-	 2. ERC20 Access Control 
+	 2. Helpi ERC20 Access Control 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5OTU5NTM1NiwtMTAwMDQ3MTg0MywxMz
+eyJoaXN0b3J5IjpbMTgzNjUwNDQxMiwtMTAwMDQ3MTg0MywxMz
 c3NTk4NjkyLC01NjIxMzYzMV19
 -->
