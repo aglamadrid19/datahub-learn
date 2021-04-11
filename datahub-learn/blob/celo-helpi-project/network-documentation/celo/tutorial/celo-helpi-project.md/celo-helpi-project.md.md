@@ -7,8 +7,10 @@
 ## Helpi Stage 1 RoadMap
 
  1. Create Helpi ERC20 Smart Contract
+	 1. ERC20 Functions:
+		 1. Min
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0ODAzNDIyLC0xMDAwNDcxODQzLDEzNz
-c1OTg2OTIsLTU2MjEzNjMxXX0=
+eyJoaXN0b3J5IjpbLTg4ODI0MTM4MywtMTAwMDQ3MTg0MywxMz
+c3NTk4NjkyLC01NjIxMzYzMV19
 -->
