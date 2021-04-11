@@ -10,9 +10,10 @@
 	 1. ERC20 Functions:
 		 1. Mintable
 		 2. Burnable
-		 3. Pausable 
+		 3. Pausable
+		 4. Snapshots 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0OTY1MzY3MCwtMTAwMDQ3MTg0MywxMz
-c3NTk4NjkyLC01NjIxMzYzMV19
+eyJoaXN0b3J5IjpbLTE3ODkwNTY4MTUsLTEwMDA0NzE4NDMsMT
+M3NzU5ODY5MiwtNTYyMTM2MzFdfQ==
 -->
