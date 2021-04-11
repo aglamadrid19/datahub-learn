@@ -14,12 +14,13 @@
 		 4. Snapshots
 	 2. Helpi ERC20 Access Control:
 		 1.  Ownable
- 2. Celo Helpi Functionalit  
+ 2. Celo Helpi Deployment Details:
+	1.  
 
-2. Create Helpi Interface
-3. 
+4. Create Helpi Interface
+5. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDI3NDk2MjgsLTE4NTA3NjQ0MDEsLT
+eyJoaXN0b3J5IjpbLTE2MjEwMDg5MzIsLTE4NTA3NjQ0MDEsLT
 g5MDIwNDE2NywtMTkyMjU4NDU1NCwtMTgwMjk0MDU5MCwtMTgy
 NzUxMzg0NCwxNzY2MjYzNTQ5LC0xMDAwNDcxODQzLDEzNzc1OT
 g2OTIsMjAzOTkyNTkzOCwtMTQxMjgxMjY0OSwtNTYyMTM2MzEs
