@@ -14,12 +14,10 @@
 		 4. Snapshots
 	 2. Helpi ERC20 Access Control:
 		 1.  Ownable
-		 2. 
-'
-
+	
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDI5NDA1OTAsLTE4Mjc1MTM4NDQsMT
-c2NjI2MzU0OSwtMTAwMDQ3MTg0MywxMzc3NTk4NjkyLC01NjIx
-MzYzMV19
+eyJoaXN0b3J5IjpbMTg0MTk0ODMwNywtMTgwMjk0MDU5MCwtMT
+gyNzUxMzg0NCwxNzY2MjYzNTQ5LC0xMDAwNDcxODQzLDEzNzc1
+OTg2OTIsLTU2MjEzNjMxXX0=
 -->
