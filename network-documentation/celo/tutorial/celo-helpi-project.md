@@ -11,10 +11,10 @@
 		 1. Mintable
 		 2. Burnable
 		 3. Pausable
-		 4.  
+		 4. Snapshots 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDY3NDA1NjIsLTEwMDA0NzE4NDMsMT
+eyJoaXN0b3J5IjpbLTE3ODkwNTY4MTUsLTEwMDA0NzE4NDMsMT
 M3NzU5ODY5MiwyMDM5OTI1OTM4LC0xNDEyODEyNjQ5LC01NjIx
 MzYzMSwtNTIyMzAzMDQwXX0=
 -->
