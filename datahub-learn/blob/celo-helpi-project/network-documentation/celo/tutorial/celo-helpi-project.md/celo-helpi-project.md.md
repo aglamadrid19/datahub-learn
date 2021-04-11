@@ -1,7 +1,5 @@
 # Celo Helpi Project
 
-Test
-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2MjEzNjMxXX0=
+eyJoaXN0b3J5IjpbLTE0MTI4MTI2NDksLTU2MjEzNjMxXX0=
 -->
