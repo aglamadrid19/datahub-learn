@@ -7,7 +7,7 @@
 ## Helpi Stage 1 RoadMap
 
  1. Create Helpi ERC20 Smart Contract
-	 1. ERC20 Features:
+	 1. Helpi ERC20 Features:
 		 1. Mintable
 		 2. Burnable
 		 3. Pausable
@@ -15,6 +15,6 @@
 	 2. ERC20 Access Control 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjgzNDk3MTYsLTEwMDA0NzE4NDMsMT
-M3NzU5ODY5MiwtNTYyMTM2MzFdfQ==
+eyJoaXN0b3J5IjpbLTM5OTU5NTM1NiwtMTAwMDQ3MTg0MywxMz
+c3NTk4NjkyLC01NjIxMzYzMV19
 -->
