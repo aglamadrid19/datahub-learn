@@ -8,9 +8,11 @@
 
  1. Create Helpi ERC20 Smart Contract
 	 1. ERC20 Functions:
-		 1. Min
+		 1. Mintable
+		 2. Burnable
+		 3. Pausable 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4ODI0MTM4MywtMTAwMDQ3MTg0MywxMz
+eyJoaXN0b3J5IjpbMTU0OTY1MzY3MCwtMTAwMDQ3MTg0MywxMz
 c3NTk4NjkyLC01NjIxMzYzMV19
 -->
