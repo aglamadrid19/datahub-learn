@@ -27,30 +27,36 @@ Please make sure that you completed the tutorials:
 3. [Submit your first transactions](https://learn.figment.io/network-documentation/celo/tutorial/4.transactions)
 4. [Write and deploy your first Celo smart contract](https://learn.figment.io/network-documentation/celo/tutorial/intro-pathway-celo-basics/5.smart-contract)
 
-We will be building on top of the NodeJS application you created in the previous tutorials.
-
-{% embed url="https://youtu.be/pQvrl4yOi10?list=PLkgTdjgP1aUCmcXrTxyRReS5OSLXlqGzB" caption="CELO Learn Pathway Tutorial \#5: Write and deploy your first Celo smart contract" %}
-
 ## Creating project
 
-Since this tutorial is a little bit more involved, we will be creating a new NodeJS project for it.
-
-Truffle comes with bare project templates which are called boxes. They are used to speed up the development process. Since this is not a tutorial about writing Solidity smart contracts, we will use Metacoin box in this tutorial. This box contains a simple smart contract for sending and receiving tokens.
-
-In the project root directory, run the following command:
+First, we need to create a folder to place our project files. Let's run the following command:
 
 ```bash
-truffle unbox metacoin
+mkdir celo-vault
 ```
 
-Once this command is done executing, you will have a project with the following items:
+Second, let's initialize a barebone truffle project, by running the following command.
 
-* **contracts/** - directory where you keep Solidity contracts
-* **migrations/** - directory for scriptable deployment files
-* **test/** - directory for test files
-* **truffle-config.js** - configuration file
+```node
+truffle init
+```
+
+OpenZeppelin Contracts is a library for secure smart contract development.
+Helping us reduce the risk of vulnerabilities in our applications by using standard, tested, community-reviewed code.
+
+Since we gathered inpiration from the above mentioned library, our Vault Smart Contracts are going to inherit some of their best practices.
+
+To install it, run the following command from the project root directory:
+
+```node
+npm install @openzeppelin/contracts
+```
 
 ## Setup project
+
+To set things up, we will create an account and fetch it's Private Key.
+
+
 
 Now open truffle-config.js and replace the content of this file with the following snippet:
 
