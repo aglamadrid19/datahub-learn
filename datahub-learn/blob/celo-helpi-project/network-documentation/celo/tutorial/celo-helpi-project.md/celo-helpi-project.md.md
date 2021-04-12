@@ -9,7 +9,7 @@
  1. Create Helpi ERC20 Smart Contract
 	 1. Helpi ERC20 Features:
 		 1. Mintable
-		 2. Burnable
+Burnable
 		 3. Pausable
 		 4. Snapshots
 	 2. Helpi ERC20 Access Control:
@@ -18,10 +18,13 @@
 	1.  
 
 4. Create Helpi Interface
-5. 
+5. 	
+
+crear vault in celo
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjEwMDg5MzIsLTE4NTA3NjQ0MDEsLT
-g5MDIwNDE2NywtMTkyMjU4NDU1NCwtMTgwMjk0MDU5MCwtMTgy
-NzUxMzg0NCwxNzY2MjYzNTQ5LC0xMDAwNDcxODQzLDEzNzc1OT
-g2OTIsLTU2MjEzNjMxXX0=
+eyJoaXN0b3J5IjpbMjQ3Njc0OTAxLC0xNjIxMDA4OTMyLC0xOD
+UwNzY0NDAxLC04OTAyMDQxNjcsLTE5MjI1ODQ1NTQsLTE4MDI5
+NDA1OTAsLTE4Mjc1MTM4NDQsMTc2NjI2MzU0OSwtMTAwMDQ3MT
+g0MywxMzc3NTk4NjkyLC01NjIxMzYzMV19
 -->
