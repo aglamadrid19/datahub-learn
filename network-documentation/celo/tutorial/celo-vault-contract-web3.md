@@ -10,6 +10,7 @@ In this tutorial, we will create, deploy and interact with our first Vault Smart
 
 We will be deploying with a Vault Smart Contract to the Alfajores testnet using Forno and Truffle.
 
+
 After we will build an boilerplate to document the ContractKit implementation to interface with our Vault Smart Contract 
 
 ### Prerequisites
