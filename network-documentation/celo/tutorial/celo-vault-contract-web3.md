@@ -1,17 +1,16 @@
 ---
-description: Learn how to create a Vault in Celo, and web3 integration.
+description: Learn how to create a Vault in Celo, and interface with it using web3.
 ---
 
-# Write, deploy, and interact (web3) with your first Celo Vault smart contract
+# Write, deploy, and interact (web3) with your first Celo Vault Smart Contract
 
 ## Introduction
 
-In this tutorial, we will create, deploy and interact with our first Vault Smart Contract on the Celo block-chain.
+In this tutorial, we will create, deploy, and interact with our first Vault Smart Contract on the Celo Ecosystem.
 
-We will be deploying with a Vault Smart Contract to the Alfajores testnet using Forno and Truffle.
+We will be deploying a Vault Smart Contract to the Alfajores Testnet using Forno and Truffle.
 
-
-After we will build an boilerplate to document the ContractKit implementation to interface with our Vault Smart Contract 
+After, we will build a boilerplate to showcase the ContractKit integration to interface with our Vault Smart Contract 
 
 ### Prerequisites
 
