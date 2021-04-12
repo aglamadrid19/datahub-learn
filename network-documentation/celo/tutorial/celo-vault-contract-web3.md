@@ -8,9 +8,9 @@ description: Learn how to create a Vault in Celo, and interface with it using we
 
 In this tutorial, we will create, deploy, and interact with our first Vault Smart Contract on the Celo Ecosystem.
 
-We will be deploying a Vault Smart Contract to the Alfajores Testnet using Forno and Truffle.
+We will be deploying a Vault Smart Contract to the Alfajores Testnet using DataHub and Truffle.
 
-After, we will build a boilerplate to showcase the ContractKit integration to interface with our Vault Smart Contract 
+After, we will build a boilerplate to showcase the ContractKit integration, to interface with our Vault Smart Contract.
 
 ### Prerequisites
 
@@ -23,9 +23,9 @@ npm install -g truffle
 Please make sure that you completed the tutorials:
 
 1. [Connect to Celo node with DataHub](https://learn.figment.io/network-documentation/celo/tutorial/1.connect)
-2. [Create your first Celo account](https://learn.figment.io/network-documentation/celo/tutorial/2.account)
-3. [Query the Celo Network](https://learn.figment.io/network-documentation/celo/tutorial/3.query)
-4. [Submit your first transactions](https://learn.figment.io/network-documentation/celo/tutorial/4.transactions)
+2. [Query the Celo Network](https://learn.figment.io/network-documentation/celo/tutorial/3.query)
+3. [Submit your first transactions](https://learn.figment.io/network-documentation/celo/tutorial/4.transactions)
+4. [Write and deploy your first Celo smart contract](https://learn.figment.io/network-documentation/celo/tutorial/intro-pathway-celo-basics/5.smart-contract)
 
 We will be building on top of the NodeJS application you created in the previous tutorials.
 
