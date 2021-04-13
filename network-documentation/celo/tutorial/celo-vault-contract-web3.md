@@ -35,26 +35,112 @@ First, we need to create a folder to place our project files. Let's run the foll
 mkdir celo-vault
 ```
 
-Second, let's initialize a barebone truffle project, by running the following command.
+Second, we can start a new node project by running the following command:
 
-```node
-truffle init
+```bash
+npm init
 ```
 
-OpenZeppelin Contracts is a library for secure smart contract development.
-Helping us reduce the risk of vulnerabilities in our applications by using standard, tested, community-reviewed code.
+Third, we can install our project dependencies.
 
-Since we gathered inpiration from the above mentioned library, our Vault Smart Contracts are going to inherit some of their best practices.
+```bash
+npm install @openzeppelin/contracts truffle web3 @celo/contractkit
+```
 
-To install it, run the following command from the project root directory:
+Fourth, let's initialize a barebone truffle project, by running the following command.
+
+```bash
+npx truffle init
+```
+
+Fifth, let's add a script to help us retrive a new account from the Celo Alfajores Testnet. In the root of your project create the following file: `getAccount.js`. After copy and paste the following snippet:
 
 ```node
-npm install @openzeppelin/contracts
+const Web3 = require('web3')
+const fs = require('fs')
+const path = require('path')
+
+var web3 = new Web3()
+
+const alfajoresFaucet = "https://celo.org/developers/faucet"
+const filePath = path.join(__dirname, './.secret')
+
+function getAccount() {
+    return new Promise(resolve => {
+        if(fs.existsSync(filePath)){
+            fs.readFile(filePath, {encoding: 'utf-8'}, (err, data) => {
+                resolve(web3.eth.accounts.privateKeyToAccount(data))
+            })
+        } else {
+            let randomAccount = web3.eth.accounts.create()
+
+            fs.writeFile(filePath, randomAccount.privateKey, (err) => {
+                if(err) {
+                    return console.log(err)
+                }
+            })
+
+            console.log(randomAccount.address)
+            resolve(randomAccount)
+        }
+    })
+}
+
+module.exports = {
+    getAccount
+}
+```
+
+Sixth, next up we can edit our `truffle-config.js`. The following snippet will initialize `ContractKit`, connect to a `remote node`, and look for a `private key` in the `./.secret` file, and if it doesn't find one, it will generate a new one. Once it gets the key, it will print the associated account. This is the account that we will fund with the faucet. 
+
+Please copy and paste the following snippet into your `truffle-config.js`
+
+```node
+// Init contractKit
+const Kit = require('@celo/contractkit')
+const kit = Kit.newKit('https://alfajores-forno.celo-testnet.org')
+
+// Get account - save pk / init account from pk (.secret)
+const getAccount = require('./getAccount').getAccount
+
+async function awaitWrapper() {
+  let account = await getAccount()
+  kit.connection.addAccount(account.privateKey)
+}
+
+awaitWrapper()
+
+module.exports = {
+  networks: {
+    test: {
+      host: "127.0.0.1",
+      port: 7545,
+      network_id: "*"
+    },
+    alfajores: {
+      provider: kit.connection.web3.currentProvider,
+      network_id: 44787
+    }
+  },
+
+  // Configure your compilers
+  compilers: {
+    solc: {
+      version: "0.8.3"
+    }
+  },
+};
 ```
 
 ## Setup project
 
 To set things up, we will create an account and fetch it's Private Key.
+
+For this we can use the following code snippet:
+
+```node
+
+```
 
 
 
