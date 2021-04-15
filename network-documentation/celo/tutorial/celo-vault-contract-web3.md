@@ -281,6 +281,24 @@ node interactions.js
 
 Congratulations! You’ve just interacted with your own instance of a smart contract deployed to the Celo Alfajores testnet.
 
+## Frontend
+
+Congratulations for deploying your first vault on the Celo Blockchain. Now, we will create a simple React application with web3 and ContractKit to easily interact with our Vault Smart Contract.
+
+First, let's initialize our react app:
+
+```bash
+npx create-react-app my-vault-interface
+cd my-vault-interface
+```
+
+Second, we need to add the following dependencies to our project:
+
+```bash
+npm install @celo/contractkit web3
+```
+
+
 ## Conclusion
 
 In this tutorial, we learned quite a lot! We took a quick look at one of Ethereum’s most powerful development tool - Truffle. We used it to compile our smart contract. Then we deployed our smart contract with few lines of Javascript code and called two methods on that smart contract.
