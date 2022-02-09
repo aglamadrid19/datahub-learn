@@ -2,10 +2,6 @@
 
 In the below tutorial, we will learn how to create a MATIC Staking dApp on Polygon to reward users who stake their MATIC with our token MANGO. We will cover the deployment of the smart contracts and the frontend for the Polygon network.
 
-This is what the dApp we will be creating looks like:
-
-![Dapp Demo](https://github.com/figment-networks/learn-tutorials/raw/master/assets/dapp-demo.gif)
-
 # Prerequisites
 
 To follow through this tutorial, you need a basic knowledge and understanding of blockchain, Solidity smart contracts and React.
