@@ -26,7 +26,7 @@ To follow through this tutorial, you need a basic knowledge and understanding of
 - Cloning and overview of our frontend user interface
 - Running the tests for our smart contracts
 - Deploying smart contracts to Polygon Mumbai (Testnet)
-- Linking smart contract to frontend using ethers.js
+- Replacing contract address on the frontend
 - Testing out our dApp
 
 # Project setup
@@ -108,15 +108,26 @@ After successfully running the tests you should see the following in your consol
 
 With this we are now ready to deploy our smart contracts, and inside our script folder we have exactly what we need. A script to deploy our contracts.
 
-Make sure inside the `.env` file there is a private key with enough funds for the deployment. The Script will deploy and verify the contracts. This is how you run it
+Make sure inside the `.env` file there is a private key with enough funds for the deployment. The Script will deploy and verify the contracts. The script after deploying our contracts will fund our `LaFincaMaticStaking` with our newly created `MangoToken` so users who stake MATIC can be rewarded with it. This is how you run it:
 
 ```bash
 npx hardhat run scripts/deploy_mango_token.js --network mumbai
 ```
 
 The expected output is as follows:
-![Change-Directory](https://la-finca-tutorial.s3.filebase.com/deploy-contracts-screenshot.png)
+![Deploy-Contracts](https://la-finca-tutorial.s3.filebase.com/deploy-contracts-screenshot.png)
+
 
 # Deploying frontend and connecting the contracts
 
-Going back to our frontend folder we need to add contract address in diferent places.
+Going back to our frontend folder we need to add `LaFincaMaticStaking` contract address in one place. Inside the frontend repository find the file `la-finca-frontend/src/components/StakeAndWithdrawMatic.js`. Inside this file let's paste the `LaFincaMaticStaking` contract address on line 9.
+
+Please see screenshot below:
+
+![Change-Address](https://la-finca-tutorial.s3.filebase.com/contract-address-screenshot.png)
+
+`StakeAndWithdrawMatic.js` contains the most important logic of our frontend, make sure to review it so you understand how everything is working.
+
+After this step we can run a development server in our frontend, connect our wallet and our application should look like this.
+
+![Demo-Screenshot](https://la-finca-tutorial.s3.filebase.com/contract-address-screenshot.png)
